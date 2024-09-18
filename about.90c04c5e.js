@@ -142,14 +142,14 @@
       this[globalName] = mainExports;
     }
   }
-})({"j2YDk":[function(require,module,exports) {
+})({"glfSZ":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d6ea1d42532a7575";
 var HMR_USE_SSE = false;
-module.bundle.HMR_BUNDLE_ID = "0bcb44a518dbc454";
+module.bundle.HMR_BUNDLE_ID = "86be4ae690c04c5e";
 "use strict";
 /* global HMR_HOST, HMR_PORT, HMR_ENV_HASH, HMR_SECURE, HMR_USE_SSE, chrome, browser, __parcel__import__, __parcel__importScripts__, ServiceWorkerGlobalScope */ /*::
 import type {
@@ -583,10 +583,12 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
     });
 }
 
-},{}],"1SICI":[function(require,module,exports) {
-// Import all of Bootstrap's JS
+},{}],"hS7Ir":[function(require,module,exports) {
+// Import aller Bootstrap-JS
 var _bootstrap = require("bootstrap");
+// import '../scss/styles.scss';
+var _aboutScss = require("../scss/about.scss"); // Importiere die seiten-spezifischen Stile für die Startseite
 
-},{"bootstrap":"h36JB"}]},["j2YDk","1SICI"], "1SICI", "parcelRequire716c")
+},{"bootstrap":"h36JB","../scss/about.scss":"bFg6g"}],"bFg6g":[function() {},{}]},["glfSZ","hS7Ir"], "hS7Ir", "parcelRequire716c")
 
-//# sourceMappingURL=index.18dbc454.js.map
+//# sourceMappingURL=about.90c04c5e.js.map
